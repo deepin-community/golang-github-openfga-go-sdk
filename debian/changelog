@@ -1,5 +1,65 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-openfga-go-sdk (0.6.3-1) unstable; urgency=medium
 
-  * Initial release
+  * New upstream release
+    - Set minimum required version of golang-opentelemetry-otel-dev
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Mathias Gibbens <gibmat@debian.org>  Wed, 06 Nov 2024 01:55:25 +0000
+
+golang-github-openfga-go-sdk (0.6.1-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Mathias Gibbens <gibmat@debian.org>  Fri, 04 Oct 2024 01:38:02 +0000
+
+golang-github-openfga-go-sdk (0.6.0-1) unstable; urgency=medium
+
+  * New upstream release
+  * d/control:
+    - Update Build-Depends and Depends
+    - Add Breaks for older versions of incus
+
+ -- Mathias Gibbens <gibmat@debian.org>  Thu, 19 Sep 2024 02:59:31 +0000
+
+golang-github-openfga-go-sdk (0.5.0-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Mathias Gibbens <gibmat@debian.org>  Fri, 28 Jun 2024 01:43:14 +0000
+
+golang-github-openfga-go-sdk (0.3.7-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Mathias Gibbens <gibmat@debian.org>  Sat, 25 May 2024 19:45:28 +0000
+
+golang-github-openfga-go-sdk (0.3.6-1) unstable; urgency=medium
+
+  * New upstream release
+  * Update Standards-Version to 4.7.0 in d/control (no changes needed)
+
+ -- Mathias Gibbens <gibmat@debian.org>  Sat, 04 May 2024 13:12:37 +0000
+
+golang-github-openfga-go-sdk (0.3.5-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Mathias Gibbens <gibmat@debian.org>  Mon, 26 Feb 2024 22:31:20 +0000
+
+golang-github-openfga-go-sdk (0.3.4-1) unstable; urgency=medium
+
+  * New upstream release
+  * Update years in d/copyright
+
+ -- Mathias Gibbens <gibmat@debian.org>  Fri, 02 Feb 2024 20:31:39 +0000
+
+golang-github-openfga-go-sdk (0.3.3-2) unstable; urgency=medium
+
+  * Source-only upload for migration
+
+ -- Mathias Gibbens <gibmat@debian.org>  Fri, 29 Dec 2023 19:35:20 +0000
+
+golang-github-openfga-go-sdk (0.3.3-1) unstable; urgency=medium
+
+  * Initial release (Closes: #1059453)
+
+ -- Mathias Gibbens <gibmat@debian.org>  Thu, 28 Dec 2023 01:15:31 +0000
